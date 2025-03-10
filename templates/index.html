@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏏 India’s Latest ICC Match</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin: 20px; background-color: #f4f4f4; }
+        h1 { color: #007BFF; }
+        .match-container { background: white; padding: 20px; border-radius: 10px; display: inline-block; }
+        table { width: 80%; margin: auto; border-collapse: collapse; }
+        th, td { border: 1px solid black; padding: 10px; }
+        th { background-color: #007BFF; color: white; }
+        #confetti-canvas { position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; }
+    </style>
+</head>
+<body>
+
+    <h1>🏏 India’s Latest ICC Match</h1>
+
+    {% if match %}
+        <div class="match-container">
+            <h2>{{ match.get("name", "Match") }}</h2>
+            <p><b>Venue:</b> {{ match.get("venue", "Unknown") }}</p>
+            <p><b>Status:</b> {{ match.get("status", "Ongoing") }}</p>
+            <h3>Scores</h3>
+            <table>
+                <tr><th>Inning</th><th>Runs</th><th>Wickets</th><th>Overs</th></tr>
+                {% for score in match.get("score", []) %}
+                <tr>
+                    <td>{{ score.get("inning", "N/A") }}</td>
+                    <td>{{ score.get("r", "N/A") }}</td>
+                    <td>{{ score.get("w", "N/A") }}</td>
+                    <td>{{ score.get("o", "N/A") }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+
+        {% if india_won %}
+            <canvas id="confetti-canvas"></canvas>
+            <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.3.0"></script>
+            <script>
+                var duration = 5 * 1000;
+                var end = Date.now() + duration;
+
+                function launchConfetti() {
+                    if (Date.now() < end) {
+                        confetti({
+                            particleCount: 5,
+                            spread: 100,
+                            origin: { y: 0.6 }
+                        });
+                        requestAnimationFrame(launchConfetti);
+                    }
+                }
+                launchConfetti();
+            </script>
+        {% endif %}
+
+    {% else %}
+        <p>No recent India match found.</p>
+    {% endif %}
+
+</body>
+</html>
