@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: icc-dashboard
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: icc-dashboard
+  template:
+    metadata:
+      labels:
+        app: icc-dashboard
+    spec:
+      containers:
+      - name: icc-dashboard
+        image: shalinikallepalli21/icc-dashboard:latest
+        ports:
+        - containerPort: 5000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: icc-dashboard-service
+spec:
+  selector:
+    app: icc-dashboard
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 5000
+  type: LoadBalancer
