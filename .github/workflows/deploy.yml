@@ -22,5 +22,7 @@ jobs:
 
       - name: Deploy to Kubernetes
         run: |
+          echo "${{ secrets.KUBECONFIG }}" > kubeconfig.yaml
+          export KUBECONFIG=kubeconfig.yaml
           kubectl apply -f kubernetes/deployment.yml
           kubectl rollout restart deployment icc-dashboard
