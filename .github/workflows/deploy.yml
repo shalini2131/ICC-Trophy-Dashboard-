@@ -8,21 +8,32 @@ on:
     - cron: '0 */6 * * *'  # Runs for every 6 hours
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  deploy:
+    runs-on: self-hosted  # This will run on EC2 instance now.
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Build Docker Image
+      - name: Build and Push Docker Image
         run: |
           docker build -t shalinikallepalli21/icc-dashboard:latest .
           docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
           docker push shalinikallepalli21/icc-dashboard:latest
 
-      - name: Deploy to Kubernetes
+      - name: Ensure kind Cluster is Running
         run: |
-          echo "${{ secrets.KUBECONFIG }}" > kubeconfig.yaml
-          export KUBECONFIG=kubeconfig.yaml
+          if ! kind get clusters | grep -q "icc-cluster"; then
+            kind create cluster --config kind-cluster.yml
+          else
+            echo "kind cluster is already running."
+          fi
+
+      - name: Deploy to kind Kubernetes on EC2
+        run: |
           kubectl apply -f kubernetes/deployment.yml
           kubectl rollout restart deployment icc-dashboard
+
+      - name: Verify Deployment
+        run: |
+          kubectl get pods
+          kubectl get services
