@@ -9,10 +9,3 @@ A **Flask-based web app** that displays India's latest ICC match results in a be
 - **Self-hosted GitHub Actions runner on AWS EC2** for CI/CD.
 - **Dockerized & deployed on a Kubernetes cluster** using `kind` on an AWS EC2 instance.
 
----
-
-## **Project Setup**
-### 1. **Clone the Repository**
-```bash
-git clone https://github.com/Shalini2131/icc-trophy-dashboard-.git
-cd icc-trophy-dashboard-
