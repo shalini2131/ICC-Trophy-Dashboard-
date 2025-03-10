@@ -1,0 +1,681 @@
+{
+    "apikey": "49ee9f9f-18b3-44e0-864a-ea9ea0325aad",
+    "data": [
+        {
+            "id": "0e793fa3-32fe-457f-b24b-e5e74d71d0a8",
+            "name": "Hong Kong Women vs Namibia Women, 4th Match",
+            "matchType": "t20",
+            "status": "Hong Kong Women won by 4 wkts",
+            "venue": "Entebbe Cricket Oval, Entebbe",
+            "date": "2025-03-09",
+            "dateTimeGMT": "2025-03-09T11:00:00",
+            "teams": [
+                "Hong Kong Women",
+                "Namibia Women"
+            ],
+            "score": [
+                {
+                    "r": 112,
+                    "w": 6,
+                    "o": 20,
+                    "inning": "Namibia Women Inning 1"
+                },
+                {
+                    "r": 115,
+                    "w": 6,
+                    "o": 19.2,
+                    "inning": "Hong Kong Women Inning 1"
+                }
+            ],
+            "series_id": "8e12ec7a-f4cf-42dc-b70c-2ed3cf738cff",
+            "fantasyEnabled": true,
+            "bbbEnabled": true,
+            "hasSquad": true,
+            "matchStarted": true,
+            "matchEnded": true
+        },
+        {
+            "id": "db74e9c5-0382-4ce2-bfac-b692904bcf6c",
+            "name": "Uganda Women vs Nepal Women, 3rd Match",
+            "matchType": "t20",
+            "status": "Nepal Women won by 1 wkt",
+            "venue": "Entebbe Cricket Oval, Entebbe",
+            "date": "2025-03-09",
+            "dateTimeGMT": "2025-03-09T07:00:00",
+            "teams": [
+                "Uganda Women",
+                "Nepal Women"
+            ],
+            "score": [
+                {
+                    "r": 75,
+                    "w": 7,
+                    "o": 20,
+                    "inning": "Uganda Women Inning 1"
+                },
+                {
+                    "r": 76,
+                    "w": 9,
+                    "o": 19.5,
+                    "inning": "Nepal Women Inning 1"
+                }
+            ],
+            "series_id": "8e12ec7a-f4cf-42dc-b70c-2ed3cf738cff",
+            "fantasyEnabled": true,
+            "bbbEnabled": true,
+            "hasSquad": true,
+            "matchStarted": true,
+            "matchEnded": true
+        },
+        {
+            "id": "c6d27072-a3ca-4498-8ccd-264c0d309a2b",
+            "name": "Malaysia vs Bahrain, 1st Match",
+            "matchType": "t20",
+            "status": "Bahrain opt to bowl",
+            "venue": "Bayuemas Oval, Kuala Lumpur",
+            "date": "2025-03-10",
+            "dateTimeGMT": "2025-03-10T03:00:00",
+            "teams": [
+                "Malaysia",
+                "Bahrain"
+            ],
+            "score": [
+                {
+                    "r": 16,
+                    "w": 2,
+                    "o": 3.3,
+                    "inning": "Malaysia Inning 1"
+                }
+            ],
+            "series_id": "3ce042e9-494e-4e02-a1c1-b11d298edb7e",
+            "fantasyEnabled": true,
+            "bbbEnabled": true,
+            "hasSquad": true,
+            "matchStarted": true,
+            "matchEnded": false
+        },
+        {
+            "id": "2da90c39-b4b9-41bb-bb8b-de5734107e52",
+            "name": "Namibia vs Canada, 57th Match",
+            "matchType": "odi",
+            "status": "Match tied (Canada won the Super Over) 39 overs game - DLS Target 175",
+            "venue": "United Cricket Club Ground, Windhoek",
+            "date": "2025-03-09",
+            "dateTimeGMT": "2025-03-09T07:30:00",
+            "teams": [
+                "Namibia",
+                "Canada"
+            ],
+            "score": [
+                {
+                    "r": 167,
+                    "w": 8,
+                    "o": 39,
+                    "inning": "Canada Inning 1"
+                },
+                {
+                    "r": 174,
+                    "w": 10,
+                    "o": 39,
+                    "inning": "Namibia Inning 1"
+                }
+            ],
+            "series_id": "9b836620-68cb-4798-9647-d479aa871b76",
+            "fantasyEnabled": true,
+            "bbbEnabled": true,
+            "hasSquad": true,
+            "matchStarted": true,
+            "matchEnded": true
+        },
+        {
+            "id": "445e4eac-2a9c-4810-afd4-77197aeed7c3",
+            "name": "India vs New Zealand, Final",
+            "matchType": "odi",
+            "status": "India won by 4 wkts",
+            "venue": "Dubai International Cricket Stadium, Dubai",
+            "date": "2025-03-09",
+            "dateTimeGMT": "2025-03-09T09:00:00",
+            "teams": [
+                "India",
+                "New Zealand"
+            ],
+            "score": [
+                {
+                    "r": 251,
+                    "w": 7,
+                    "o": 50,
+                    "inning": "New Zealand Inning 1"
+                },
+                {
+                    "r": 254,
+                    "w": 6,
+                    "o": 49,
+                    "inning": "India Inning 1"
+                }
+            ],
+            "series_id": "49fc7a37-da67-435e-bf5f-00da233e9ff4",
+            "fantasyEnabled": true,
+            "bbbEnabled": true,
+            "hasSquad": true,
+            "matchStarted": true,
+            "matchEnded": true
+        },
+        {
+            "id": "08020a18-309f-46d6-b4dd-c316bf7cba8a",
+            "name": "Afghanistan vs Australia, 10th Match, Group B",
+            "matchType": "odi",
+            "status": "No result - due to rain",
+            "venue": "Gaddafi Stadium, Lahore",
+            "date": "2025-02-28",
+            "dateTimeGMT": "2025-02-28T09:00:00",
+            "teams": [
+                "Afghanistan",
+                "Australia"
+            ],
+            "score": [
+                {
+                    "r": 273,
+                    "w": 10,
+                    "o": 50,
+                    "inning": "Afghanistan Inning 1"
+                },
+                {
+                    "r": 109,
+                    "w": 1,
+                    "o": 12.5,
+                    "inning": "Australia Inning 1"
+                }
+            ],
+            "series_id": "49fc7a37-da67-435e-bf5f-00da233e9ff4",
+            "fantasyEnabled": true,
+            "bbbEnabled": true,
+            "hasSquad": true,
+            "matchStarted": true,
+            "matchEnded": false
+        },
+        {
+            "id": "e9b8ed6c-ac18-426b-8bfd-135af563abd1",
+            "name": "Zimbabwe vs Ireland, 1st T20I",
+            "matchType": "t20",
+            "status": "No result - due to rain",
+            "venue": "Harare Sports Club, Harare",
+            "date": "2025-02-22",
+            "dateTimeGMT": "2025-02-22T11:30:00",
+            "teams": [
+                "Zimbabwe",
+                "Ireland"
+            ],
+            "score": [
+                {
+                    "r": 77,
+                    "w": 5,
+                    "o": 9,
+                    "inning": "Zimbabwe Inning 1"
+                }
+            ],
+            "series_id": "4c530671-8319-4805-b05b-665ac32d7577",
+            "fantasyEnabled": true,
+            "bbbEnabled": true,
+            "hasSquad": true,
+            "matchStarted": true,
+            "matchEnded": false
+        },
+        {
+            "id": "1e7ae2fe-2387-40f2-918f-d571fab5d9b9",
+            "name": "North West vs Dolphins, 28th Match",
+            "matchType": "odi",
+            "status": "Dolphins won by 7 wkts - Revised due to rain (DLS method)",
+            "venue": "North-West University No1 Ground, Potchefstroom",
+            "date": "2025-03-09",
+            "dateTimeGMT": "2025-03-09T08:00:00",
+            "teams": [
+                "North West",
+                "Dolphins"
+            ],
+            "teamInfo": [
+                {
+                    "name": "Dolphins",
+                    "shortname": "DOL",
+                    "img": "https://g.cricapi.com/iapi/20-637993514627926036.webp?w=48"
+                },
+                {
+                    "name": "North West",
+                    "shortname": "NWEST",
+                    "img": "https://g.cricapi.com/iapi/60-637991981808951763.webp?w=48"
+                }
+            ],
+            "score": [
+                {
+                    "r": 246,
+                    "w": 7,
+                    "o": 50,
+                    "inning": "North West Inning 1"
+                },
+                {
+                    "r": 216,
+                    "w": 3,
+                    "o": 34.5,
+                    "inning": "Dolphins Inning 1"
+                }
+            ],
+            "series_id": "c459a046-6e27-4499-8ee8-1915f783cf38",
+            "fantasyEnabled": true,
+            "bbbEnabled": false,
+            "hasSquad": true,
+            "matchStarted": true,
+            "matchEnded": true
+        },
+        {
+            "id": "b6e84b93-bcc7-49a9-897a-70923902360e",
+            "name": "Knights vs Titans, 27th Match",
+            "matchType": "odi",
+            "status": "Titans won by 7 wkts",
+            "venue": "Mangaung Oval, Bloemfontein",
+            "date": "2025-03-09",
+            "dateTimeGMT": "2025-03-09T08:00:00",
+            "teams": [
+                "Knights",
+                "Titans"
+            ],
+            "teamInfo": [
+                {
+                    "name": "Knights",
+                    "shortname": "KNG",
+                    "img": "https://g.cricapi.com/iapi/40-637992688759741358.webp?w=48"
+                },
+                {
+                    "name": "Titans",
+                    "shortname": "TITNS",
+                    "img": "https://g.cricapi.com/iapi/89-637987557693726758.webp?w=48"
+                }
+            ],
+            "score": [
+                {
+                    "r": 230,
+                    "w": 10,
+                    "o": 50,
+                    "inning": "Knights Inning 1"
+                },
+                {
+                    "r": 236,
+                    "w": 3,
+                    "o": 38.3,
+                    "inning": "Titans Inning 1"
+                }
+            ],
+            "series_id": "c459a046-6e27-4499-8ee8-1915f783cf38",
+            "fantasyEnabled": true,
+            "bbbEnabled": false,
+            "hasSquad": true,
+            "matchStarted": true,
+            "matchEnded": true
+        },
+        {
+            "id": "424aef21-bdf1-436a-a1b7-4951b874d369",
+            "name": "Warriors vs Lions, 26th Match",
+            "matchType": "odi",
+            "status": "Warriors won by 33 runs - Revised due to rain (DLS method)",
+            "venue": "St George's Park, Gqeberha",
+            "date": "2025-03-09",
+            "dateTimeGMT": "2025-03-09T08:00:00",
+            "teams": [
+                "Warriors",
+                "Lions"
+            ],
+            "teamInfo": [
+                {
+                    "name": "Lions",
+                    "shortname": "LIONS",
+                    "img": "https://g.cricapi.com/iapi/43-638016114998237773.webp?w=48"
+                },
+                {
+                    "name": "Warriors",
+                    "shortname": "WAR",
+                    "img": "https://g.cricapi.com/iapi/98-637987556857963180.webp?w=48"
+                }
+            ],
+            "score": [
+                {
+                    "r": 279,
+                    "w": 5,
+                    "o": 50,
+                    "inning": "Lions Inning 1"
+                },
+                {
+                    "r": 124,
+                    "w": 1,
+                    "o": 22.2,
+                    "inning": "Warriors Inning 1"
+                }
+            ],
+            "series_id": "c459a046-6e27-4499-8ee8-1915f783cf38",
+            "fantasyEnabled": true,
+            "bbbEnabled": false,
+            "hasSquad": true,
+            "matchStarted": true,
+            "matchEnded": true
+        },
+        {
+            "id": "826d1272-a85e-4f80-8738-b9d91de1aa5b",
+            "name": "Boland vs Western Province, 25th Match",
+            "matchType": "odi",
+            "status": "Boland won by 5 wkts",
+            "venue": "Boland Park, Paarl",
+            "date": "2025-03-09",
+            "dateTimeGMT": "2025-03-09T08:00:00",
+            "teams": [
+                "Boland",
+                "Western Province"
+            ],
+            "teamInfo": [
+                {
+                    "name": "Boland",
+                    "shortname": "BL",
+                    "img": "https://h.cricapi.com/img/icon512.png"
+                },
+                {
+                    "name": "Western Province",
+                    "shortname": "WPR",
+                    "img": "https://g.cricapi.com/iapi/104-637987555401464222.webp?w=48"
+                }
+            ],
+            "score": [
+                {
+                    "r": 182,
+                    "w": 10,
+                    "o": 45.2,
+                    "inning": "Western Province Inning 1"
+                },
+                {
+                    "r": 183,
+                    "w": 5,
+                    "o": 43.3,
+                    "inning": "Boland Inning 1"
+                }
+            ],
+            "series_id": "c459a046-6e27-4499-8ee8-1915f783cf38",
+            "fantasyEnabled": true,
+            "bbbEnabled": false,
+            "hasSquad": true,
+            "matchStarted": true,
+            "matchEnded": true
+        },
+        {
+            "id": "ecc8580e-48b2-4529-b8f0-29c68ceda362",
+            "name": "KwaZulu-Natal Inland vs South Africa Emerging Players, 28th Match",
+            "matchType": "odi",
+            "status": "KwaZulu - Natal Inland won by 39 runs",
+            "venue": "LC de Villiers Oval, Pretoria",
+            "date": "2025-03-09",
+            "dateTimeGMT": "2025-03-09T08:00:00",
+            "teams": [
+                "KwaZulu-Natal Inland",
+                "South Africa Emerging Players"
+            ],
+            "teamInfo": [
+                {
+                    "name": "KwaZulu-Natal Inland",
+                    "shortname": "KZ",
+                    "img": "https://h.cricapi.com/img/icon512.png"
+                },
+                {
+                    "name": "South Africa Emerging Players",
+                    "shortname": "SA",
+                    "img": "https://g.cricapi.com/iapi/273-637877069629067075.webp?w=48"
+                }
+            ],
+            "score": [
+                {
+                    "r": 311,
+                    "w": 7,
+                    "o": 50,
+                    "inning": "KwaZulu-Natal Inland Inning 1"
+                },
+                {
+                    "r": 272,
+                    "w": 9,
+                    "o": 50,
+                    "inning": "South Africa Emerging Players Inning 1"
+                }
+            ],
+            "series_id": "03532633-c83b-401a-aecb-99da710ae4fd",
+            "fantasyEnabled": true,
+            "bbbEnabled": false,
+            "hasSquad": true,
+            "matchStarted": true,
+            "matchEnded": true
+        },
+        {
+            "id": "ffe3face-690e-43ee-8589-7bd6a459fe26",
+            "name": "Eastern Storm vs Limpopo, 27th Match",
+            "matchType": "odi",
+            "status": "Eastern Storm won by 59 runs - Revised due to rain (DLS method)",
+            "venue": "Willowmoore Park, Benoni",
+            "date": "2025-03-09",
+            "dateTimeGMT": "2025-03-09T08:00:00",
+            "teams": [
+                "Eastern Storm",
+                "Limpopo"
+            ],
+            "teamInfo": [
+                {
+                    "name": "Eastern Storm",
+                    "shortname": "ESTORM",
+                    "img": "https://g.cricapi.com/iapi/22-637992689531725146.webp?w=48"
+                },
+                {
+                    "name": "Limpopo",
+                    "shortname": "LIMPO",
+                    "img": "https://g.cricapi.com/iapi/42-637991993542281273.webp?w=48"
+                }
+            ],
+            "score": [
+                {
+                    "r": 244,
+                    "w": 8,
+                    "o": 50,
+                    "inning": "Eastern Storm Inning 1"
+                },
+                {
+                    "r": 173,
+                    "w": 9,
+                    "o": 46,
+                    "inning": "Limpopo Inning 1"
+                }
+            ],
+            "series_id": "03532633-c83b-401a-aecb-99da710ae4fd",
+            "fantasyEnabled": true,
+            "bbbEnabled": false,
+            "hasSquad": true,
+            "matchStarted": true,
+            "matchEnded": true
+        },
+        {
+            "id": "d8ff698f-3858-4500-9835-89b76d235914",
+            "name": "Mpumalanga Rhinos vs Northern Cape, 26th Match",
+            "matchType": "odi",
+            "status": "Mpumalanga Rhinos won by 28 runs",
+            "venue": "Diamond Oval, Kimberley",
+            "date": "2025-03-09",
+            "dateTimeGMT": "2025-03-09T08:00:00",
+            "teams": [
+                "Mpumalanga Rhinos",
+                "Northern Cape"
+            ],
+            "teamInfo": [
+                {
+                    "name": "Mpumalanga Rhinos",
+                    "shortname": "MPR",
+                    "img": "https://g.cricapi.com/iapi/49-637991993271802283.webp?w=48"
+                },
+                {
+                    "name": "Northern Cape",
+                    "shortname": "NCAPE",
+                    "img": "https://g.cricapi.com/iapi/61-637991981464151764.webp?w=48"
+                }
+            ],
+            "score": [
+                {
+                    "r": 205,
+                    "w": 9,
+                    "o": 50,
+                    "inning": "Mpumalanga Rhinos Inning 1"
+                },
+                {
+                    "r": 177,
+                    "w": 10,
+                    "o": 46.5,
+                    "inning": "Northern Cape Inning 1"
+                }
+            ],
+            "series_id": "03532633-c83b-401a-aecb-99da710ae4fd",
+            "fantasyEnabled": true,
+            "bbbEnabled": false,
+            "hasSquad": true,
+            "matchStarted": true,
+            "matchEnded": true
+        },
+        {
+            "id": "cbd84d63-0c24-4340-bd88-a9aa7aebe66f",
+            "name": "Border vs South Western Districts, 25th Match",
+            "matchType": "odi",
+            "status": "Border won by 2 wkts",
+            "venue": "Recreation Ground, Oudtshoorn",
+            "date": "2025-03-09",
+            "dateTimeGMT": "2025-03-09T08:00:00",
+            "teams": [
+                "Border",
+                "South Western Districts"
+            ],
+            "teamInfo": [
+                {
+                    "name": "Border",
+                    "shortname": "BR",
+                    "img": "https://h.cricapi.com/img/icon512.png"
+                },
+                {
+                    "name": "South Western Districts",
+                    "shortname": "SWD",
+                    "img": "https://g.cricapi.com/iapi/85-637993498736049006.webp?w=48"
+                }
+            ],
+            "score": [
+                {
+                    "r": 257,
+                    "w": 5,
+                    "o": 50,
+                    "inning": "South Western Districts Inning 1"
+                },
+                {
+                    "r": 258,
+                    "w": 8,
+                    "o": 39.4,
+                    "inning": "Border Inning 1"
+                }
+            ],
+            "series_id": "03532633-c83b-401a-aecb-99da710ae4fd",
+            "fantasyEnabled": true,
+            "bbbEnabled": false,
+            "hasSquad": true,
+            "matchStarted": true,
+            "matchEnded": true
+        },
+        {
+            "id": "6eb86aa1-aaba-47c4-b2b4-5ebd5b53707d",
+            "name": "New Zealand Women vs Sri Lanka Women, 3rd ODI (ICC Championship Match)",
+            "matchType": "odi",
+            "status": "New Zealand Women won by 98 runs",
+            "venue": "Saxton Oval, Nelson",
+            "date": "2025-03-08",
+            "dateTimeGMT": "2025-03-08T22:00:00",
+            "teams": [
+                "New Zealand Women",
+                "Sri Lanka Women"
+            ],
+            "teamInfo": [
+                {
+                    "name": "New Zealand Women",
+                    "shortname": "NZW",
+                    "img": "https://g.cricapi.com/iapi/58-637877077173296488.webp?w=48"
+                },
+                {
+                    "name": "Sri Lanka Women",
+                    "shortname": "SLW",
+                    "img": "https://g.cricapi.com/iapi/4191-638101639309122979.webp?w=48"
+                }
+            ],
+            "score": [
+                {
+                    "r": 280,
+                    "w": 6,
+                    "o": 50,
+                    "inning": "New Zealand Women Inning 1"
+                },
+                {
+                    "r": 182,
+                    "w": 10,
+                    "o": 50,
+                    "inning": "Sri Lanka Women Inning 1"
+                }
+            ],
+            "series_id": "40b93362-48f6-444d-b8b9-6cb583b9788d",
+            "fantasyEnabled": true,
+            "bbbEnabled": true,
+            "hasSquad": true,
+            "matchStarted": true,
+            "matchEnded": true
+        },
+        {
+            "id": "1f00a33f-d2ea-42df-9410-b813f23ae03d",
+            "name": "New Zealand Women vs Sri Lanka Women, 1st ODI (ICC Championship Match)",
+            "matchType": "odi",
+            "status": "No result - due to rain",
+            "venue": "McLean Park, Napier",
+            "date": "2025-03-04",
+            "dateTimeGMT": "2025-03-04T01:00:00",
+            "teams": [
+                "New Zealand Women",
+                "Sri Lanka Women"
+            ],
+            "teamInfo": [
+                {
+                    "name": "New Zealand Women",
+                    "shortname": "NZW",
+                    "img": "https://g.cricapi.com/iapi/58-637877077173296488.webp?w=48"
+                },
+                {
+                    "name": "Sri Lanka Women",
+                    "shortname": "SLW",
+                    "img": "https://g.cricapi.com/iapi/4191-638101639309122979.webp?w=48"
+                }
+            ],
+            "score": [
+                {
+                    "r": 147,
+                    "w": 5,
+                    "o": 36.4,
+                    "inning": "Sri Lanka Women Inning 1"
+                }
+            ],
+            "series_id": "40b93362-48f6-444d-b8b9-6cb583b9788d",
+            "fantasyEnabled": true,
+            "bbbEnabled": true,
+            "hasSquad": true,
+            "matchStarted": true,
+            "matchEnded": false
+        }
+    ],
+    "status": "success",
+    "info": {
+        "hitsToday": 1,
+        "hitsUsed": 1,
+        "hitsLimit": 100,
+        "credits": 0,
+        "server": 15,
+        "offsetRows": 0,
+        "totalRows": 17,
+        "queryTime": 44.8405,
+        "s": 0,
+        "cache": 1
+    }
+}
