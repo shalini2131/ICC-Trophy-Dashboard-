@@ -16,7 +16,7 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t your-dockerhub-username/icc-dashboard:latest .
+          docker build -t shalinikallepalli21/icc-dashboard:latest .
           docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
           docker push shalinikallepalli21/icc-dashboard:latest
 
